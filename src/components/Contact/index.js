@@ -22,10 +22,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_mteiktp',
+        'your serviceId',
         'template_k90451d',
         refForm.current,
-        'IkUv9-zY8DyXZqh1h'
+        'User token'
       )
       .then(
         () => {
